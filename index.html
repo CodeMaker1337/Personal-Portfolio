@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Thorisan Portfolio</title>
+</head>
+
+<body>
+    <div class="container navbar">
+        <header>
+            <div class"lgo">
+                <h1>Thorisan</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">Om Mig</a></li>
+                    <li><a href="#skills">Mine Kompetencer</a></li>
+                    <li><a href="#work">Mine Projekter</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">e</span>
+                <span class="m-left">j</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>j</span>
+                <span class="m-left">e</span>
+                <span class="m-left">g</span>
+                <span>h</span>
+                <span class="m-left">e</span>
+                <span class="m-left">d</span>
+                <span class="m-left">d</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="name">T</span>
+                <span class="m-left name">h</span>
+                <span class="m-left name">o</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">s</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">n</span>
+                <br>
+                <br>
+                <span>-</span>
+                &nbsp;
+                <span>P</span>
+                <span class="m-left">r</span>
+                <span class="m-left">o</span>
+                <span class="m-left">g</span>
+                <span class="m-left">r</span>
+                <span class="m-left">a</span>
+                <span class="m-left">m</span>
+                <span class="m-left">m</span>
+                <span class="m-left">ø</span>
+                <span class="m-left">r</span>
+            </h1>
+            <br>
+            <p>HTML / CSS / React</p>
+            <a href="#contact">Kontakt Mig</a>
+        </div>
+        <div class="profile-image">
+            <img src="img/profile-image.jpg" alt="Avatar">
+        </div>
+    </div>
+
+    <div class="container about" id="about">
+        <h1>Om</h1>
+        <br>
+        <br>
+        <br>
+        <div class="about-me-info">
+            <p>Hej, jeg hedder Thorisan Andru Narenthirarajah.
+                <br>
+                <br>
+                Jeg er 17 år gammel og til hverdag går jeg på AARHUS TECH i Viby J som EUX elev. Jeg har afsluttet
+                grundforløb 2 på data- og kommunikationsuddannelsen, og skal derfor lede efter en elevplads.
+                <br>
+                <br>
+                Jeg er en meget energisk dreng, som elsker at blive udfordret og giver ikke op, når der er noget jeg har
+                en udfordring med. I min fritid kan jeg godt lide, at være sammen med venner og familie, generelt er jeg
+                meget social.</p>
+        </div>
+        <img src="img/dotted-shape.png" alt="">
+    </div>
+
+    <div class="container skills" id="skills">
+        <h1>Kompetencer</h1>
+        <br>
+        <p class="skills-info">Når jeg ikke er sammen med venner og familie, kan jeg godt lide at kode. Jeg synes bare
+            det er så fascinerende, at man kan få et stykke kode til at blive til en funktion. Jeg kan kode i HTML, CSS
+            og lidt JavaScript som jeg har brugt til at lave min egen web baseret portfolio og en simpel lommeregner.
+        </p>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>CSS</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javascript">
+                <p>JavaScript</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-csharp">
+                <p>C#</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-csharp"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-python">
+                <p>Python</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-python"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container work" id="work">
+        <h1>Projekter</h1>
+        <br>
+        <br>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Sneaker Bot</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Windows Server 2016</button>
+            <button id="project" onclick="showRequiredCategory(this)">LEGO Mindstorms EV3</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="img/WS2016/1.png"></a>
+            <a href=""><img src="img/WS2016/2.png"></a>
+            <a href=""><img src="img/WS2016/3.png"></a>
+            <a href=""><img src="img/WS2016/4.png"></a>
+            <a href=""><img src="img/WS2016/5.png"></a>
+            <a href=""><img src="img/WS2016/6.png"></a>
+            <a href=""><img src="img/WS2016/7.png"></a>
+            <a href=""><img src="img/WS2016/8.png"></a>
+            <a href=""><img src="img/WS2016/9.png"></a>
+            <a href=""><img src="img/WS2016/10.png"></a>
+            <a href=""><img src="img/WS2016/11.png"></a>
+            <a href=""><img src="img/WS2016/12.png"></a>
+            <a href=""><img src="img/WS2016/13.png"></a>
+            <a href=""><img src="img/WS2016/14.png"></a>
+            <a href=""><img src="img/WS2016/15.png"></a>
+            <a href=""><img src="img/WS2016/16.png"></a>
+            <a href=""><img src="img/WS2016/17.png"></a>
+            <a href=""><img src="img/WS2016/18.png"></a>
+            <a href=""><img src="img/WS2016/19.png"></a>
+            <a href=""><img src="img/WS2016/20.png"></a>
+            <a href=""><img src="img/WS2016/21.png"></a>
+            <a href=""><img src="img/WS2016/22.png"></a>
+            <a href=""><img src="img/WS2016/23.png"></a>
+            <a href=""><img src="img/WS2016/24.png"></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h1>Kontakt</h1>
+        <form action="mailto:thorisan.arbejde@gmail.com" method="get" enctype="text/plain">
+            <input type="email" placeholder="thorisan.arbejde@gmail.com" disabled />
+            <input type="submit" name="submit" value="Send" />
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2020 Copyright. All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
